@@ -1,0 +1,22 @@
+### Output Command Prompt
+
+Berikut adalah hasil perintah SQL yang dijalankan di Command Prompt:
+
+```plaintext
+C:\xampp\mysql\bin>mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 10
+Server version: 10.4.24-MariaDB mariadb.org binary distribution
+
+MariaDB [(none)]> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mahasiswa          |
+| mysql              |
+| performance_schema |
+| test               |
++--------------------+
+5 rows in set (0.001 sec)
